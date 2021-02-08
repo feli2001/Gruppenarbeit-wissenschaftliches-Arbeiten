@@ -1,2 +1,13 @@
 # Gruppenarbeit-wissenschaftliches-Arbeiten
-# Unsere GitHub Gruppenarbeit ist toll!!!
+
+Dieses Repository wurde im Rahmen einer Gruppenarbeit des Seminars wissenschaftliches Arbeiten erstellt. Die Gruppenmitglieder sind Sina Ruether, Rik Amann, Felicitas Gerss, Lutz Weiland, Hoang Anh Thi Dang, Tayfun Kalembasi.
+
+Unsere E-Mail Adressen sind:
+felicitas.gerss@tu-dortmund.de
+
+
+
+
+
+Für unsere Skripte verwenden wir die R-Version 4.
+In unserem Datensatz wurden Personen von 100 Personen auf 5 Variablen simuliert. 
