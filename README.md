@@ -4,7 +4,8 @@ Dieses Repository wurde im Rahmen einer Gruppenarbeit des Seminars wissenschaftl
 
 Unsere E-Mail Adressen sind:
 felicitas.gerss@tu-dortmund.de; 
-sina.ruether@freenet.de
+sina.ruether@freenet.de;
+rik.amann@tu-dortmund.de
 
 
 
