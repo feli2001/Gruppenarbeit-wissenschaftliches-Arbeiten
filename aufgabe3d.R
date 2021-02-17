@@ -23,20 +23,16 @@
 # sqrt((n-1)/n)) multipliziert. 
 
 
-pbcor = function(dichotomic_variable, metric_variable, data) {
-  y0 = data[data$dichotomic_variable == "0", "metric_variable"]
-  y1 = data[data$dichotomic_variable == "1", "metric_variable"]
-  meany0 = mean(y0)
-  meany1 = mean(y1)
-  n0 = length(y0)
-  n1 = length(y1)
-  n = n0 + n1
-  return(((meany1 - meany0) / (sd(data$metric_variable) * sqrt((n-1)/n)))
-         * sqrt(n0*n1/n^2))
+pbcor <- function(dicho, metric) {
+  y0 <- which(dicho == "0")
+  a0<- metric[y0]
+  y1 <- which(dicho == "1")
+  a1<- metric[y1]
+  meana0 <- mean(a0)
+  meana1 <- mean(a1)
+  n0 <- length(a0)
+  n1 <- length(a1)
+  n <- n0 + n1
+  return(((meana1 - meana0) / (sd(metric)) * sqrt((n-1)/n))
+         * sqrt(n0*n1/(n^2)))
 }
-
-# Beim Anwenden der Funktion wird folgende Fehlermeldung ausgeworfen:
-# Warnmeldungen:
-# 1: In mean.default(y0) : argument is not numeric or logical: returning NA
-# 2: In mean.default(y1) : argument is not numeric or logical: returning NA
-# 3: In sqrt((n - 1)/n) : NaNs wurden erzeugt
