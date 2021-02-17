@@ -1,0 +1,9 @@
+##Change-Log für Funktion Teil e)
+
+##Log 1 (16.2.2021)
+
+1 - (An alle) Gibt es NA-Werte? Falls ja, was wäre unsere Strategie mit denen?
+
+2 - (An diejenigen, die mit kategoriesiertem-Vektor arbeiten) Hättet ihr lieber die Ausgabe dieser Funktion als factor-Vektor oder character-Vektor oder sonst? (Jetzt ist es als factor-Vektor zurückgegeben)
+
+3 - (An alle) Wie viele Kategorisierungsfunktionen sollten wir zur Verfügung stellen? (jetzt habe ich nur 2 Kategorisierungsfunktionen mit jeweils 3 und 4 Kategorien erstellt)
