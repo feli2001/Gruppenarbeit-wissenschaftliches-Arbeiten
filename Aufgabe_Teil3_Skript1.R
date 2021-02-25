@@ -254,9 +254,9 @@ Erwartungshaeufigkeiten <- function(x,y)
 
 
 pbcor <- function(dicho, metric) {
-  y0 <- which(dicho == "0")
+  y0 <- which(dicho == "nein")
   a0<- metric[y0]
-  y1 <- which(dicho == "1")
+  y1 <- which(dicho == "ja")
   a1<- metric[y1]
   meana0 <- mean(a0)
   meana1 <- mean(a1)
